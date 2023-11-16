@@ -13,7 +13,7 @@ if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:Mzmedia/Mzmedia.github.io.git
 else
-  msg='来自github action的自动部署test'
+  msg='来自github action的自动部署'
   #githubUrl=https://Mzmedia:${GITHUB_TOKEN}@git@github.com:Mzmedia/Mzmedia.github.io.git
   githubUrl=https://${GITHUB_TOKEN}@github.com/Mzmedia/Mzmedia.github.io.git
 fi
@@ -21,7 +21,7 @@ fi
 git init
 git add -A
 git commit -m "${msg}"
-git push -f $githubUrl main:gh-pages # 推送到github
+git push -f $githubUrl master:gh-pages # 推送到github
 
 cd -
 rm -rf docs/.vuepress/dist
