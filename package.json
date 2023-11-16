@@ -4,11 +4,13 @@
   "scripts": {
     "dev": "node --max_old_space_size=4096 ./node_modules/vuepress/cli.js dev docs",
     "build": "export NODE_OPTIONS=--openssl-legacy-provider && node --max_old_space_size=4096 ./node_modules/vuepress/cli.js build docs",
+    "wbuild": "set NODE_OPTIONS=--openssl-legacy-provider && node --max_old_space_size=4096 ./node_modules/vuepress/cli.js build docs",
     "predev": "vdoing",
     "prebuild": "vdoing",
     "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn && yarn add vuepress-theme-vdoing -D",
     "editFm": "node utils/editFrontmatter.js",
-    "deploy": "bash deploy.sh"
+    "deploy": "bash deploy.sh",
+    "baiduPush": "node utils/baiduPush.js https://xugaoyi.com && bash baiduPush.sh"
   },
   "license": "MIT",
   "devDependencies": {
@@ -24,6 +26,5 @@
     "vuepress-plugin-zooming": "^1.1.7",
     "vuepress-theme-vdoing": "^1.12.9",
     "yamljs": "^0.3.0"
-  },
-  "dependencies": {}
+  }
 }

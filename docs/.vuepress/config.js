@@ -14,7 +14,6 @@ module.exports = {
         ['link', {rel: 'icon', href: '/img/favicon.ico'}], //favicons，资源放在public文件夹
         ['meta', {name: 'keywords', content: 'vuepress,theme,blog,vdoing'}],
         ['meta', {name: 'theme-color', content: '#11a8cd'}], // 移动浏览器主题颜色
-
         ['meta', {name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87'}], // 广告相关，你可以去掉
         ['script', {src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript'}], // 广告相关，你可以去掉
     ],
@@ -24,22 +23,22 @@ module.exports = {
         nav: [
             {text: '首页', link: '/'},
             {
-                text: '指南', link: '/pages/introduction/', items: [
-                    {text: '产品介绍', link: '/pages/introduction/'},
+                text: '技术文档', link: '/pages/6882d2/', items: [
+                    {text: '产品介绍', link: '/pages/6882d2/'},
                     {text: '系统架构', link: '/pages/architecture/'},
-                    {text: '快速入门', link: '/pages/quick/'},
+                    {text: '快速入门', link: '/pages/514fee'},
                     {text: '安装部署', link: '/pages/deployment/'},
                     {text: '功能手册', link: '/pages/function/'},
                     {text: '开发文档', link: '/pages/develop/'},
-                    {text: '最佳实践', link: '/pages/pPractices/'},
+                    {text: '最佳实践', link: '/pages/practices/'},
                     {text: '常见问题', link: '/pages/question/'},
                 ]
             },
-            {text: '案例', link: '/pages/case/'},
+            {text: '案例展示', link: '/pages/691d64/'},
             {text: '应用商城', link: '/pages/app/'},
-            {text: '更新日志', link: '/pages/log/'},
-            {text: '技术咨询', link: '/pages/advice/'},
-            {text: '联系我们', link: '/pages/contact/'},
+            {text: '更新日志', link: '/pages/e6b446/'},
+            {text: '技术咨询', link: '/pages/777534/'},
+            {text: '联系我们', link: '/pages/324e68/'},
         ],
         sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
         logo: '/img/logo.png', // 导航栏logo
@@ -74,7 +73,7 @@ module.exports = {
         // archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
 
         author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
-            name: 'Evan Xu', // 必需
+            name: 'MzMedia', // 必需
             href: 'https://github.com/xugaoyi' // 可选的
         },
         social: { // 社交图标，显示于博主信息栏和页脚栏
@@ -83,7 +82,7 @@ module.exports = {
                 {
                     iconClass: 'icon-youjian',
                     title: '发邮件',
-                    link: 'mailto:894072666@qq.com'
+                    link: 'mailto:mzmedia2023@126.com'
                 },
                 {
                     iconClass: 'icon-github',
@@ -98,8 +97,8 @@ module.exports = {
             ]
         },
         footer: { // 页脚信息
-            createYear: 2019, // 博客创建年份
-            copyrightInfo: 'Evan Xu | MIT License', // 博客版权信息，支持a标签
+            createYear: 2023, // 博客创建年份
+            copyrightInfo: 'MzMedia | MIT License', // 博客版权信息，支持a标签
         },
         htmlModules,
     },
@@ -177,6 +176,14 @@ module.exports = {
     markdown: {
         // lineNumbers: true,
         extractHeaders: ['h2', 'h3', 'h4', 'h5', 'h6'], // 提取标题到侧边栏的级别，默认['h2', 'h3']
+    },
+
+    extendFrontmatter: {
+        author: {
+            name: 'MzMedia',
+            link: 'https://github.com/MzMedia'
+        },
+        titleTag: '',
     },
 
     // 监听文件变化并重新构建
