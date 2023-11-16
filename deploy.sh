@@ -14,7 +14,7 @@ if [ -z "$GITHUB_TOKEN" ]; then
   githubUrl=git@github.com:Mzmedia/Mzmedia.github.io.gittest
 else
   msg='来自github action的自动部署test'
-  githubUrl=https://Mzmedia:${GITHUB_TOKEN}@git@github.com:Mzmedia/Mzmedia.github.io.git
+  githubUrl=https://Mzmedia:${GITHUB_TOKEN}@git@github.com:Mzmedia/Mzmedia.github.iotest.git
 
 fi
 
