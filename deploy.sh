@@ -11,7 +11,7 @@ git config --global user.email "mzmedia2023@126.com"
 #echo 'blog.xugaoyi.com' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:Mzmedia/Mzmedia.github.io.gittest
+  githubUrl=git@github.com:Mzmedia/Mzmedia.github.io.git
 else
   msg='来自github action的自动部署test'
   #githubUrl=https://Mzmedia:${GITHUB_TOKEN}@git@github.com:Mzmedia/Mzmedia.github.io.git
