@@ -7,7 +7,8 @@
     "predev": "vdoing",
     "prebuild": "vdoing",
     "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn && yarn add vuepress-theme-vdoing -D",
-    "editFm": "node utils/editFrontmatter.js"
+    "editFm": "node utils/editFrontmatter.js",
+    "deploy": "bash deploy.sh"
   },
   "license": "MIT",
   "devDependencies": {
