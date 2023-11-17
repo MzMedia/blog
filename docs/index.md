@@ -43,11 +43,7 @@ postList: none
 </p>
 
 <br/>
-<p align="center" style="color: #999;">
-  赞助商 (进入为作者充电)
-</p>
-<p align="center">
-</p>
+
 
 ## 🎖特别用户
 ::: cardList 1
