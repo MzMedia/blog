@@ -38,7 +38,7 @@ postList: none
   <a href="https://www.jetbrains.com/?from=RuoYi-Vue-Plus" target="_blank"><img src="https://img.shields.io/badge/IntelliJ%20IDEA-提供支持-blue.svg" class="no-zoom"></a>
   <a href="https://gitee.com/dromara/RuoYi-Vue-Plus" target="_blank"><img src="https://img.shields.io/badge/RuoYi_Vue_Plus-5.1.0-success.svg" class="no-zoom"></a>
   <a href="" target="_blank"><img src="https://img.shields.io/badge/Spring%20Boot-3.0-blue.svg" class="no-zoom"></a>
-  <a href="https://github.com/MzMedia/MzMedia" target="_blank"><img src='https://img.shields.io/github/forks/MzMedia/MzMedia' alt='GitHub stars' class="no-zoom"></a>
+  <a href="https://github.com/MzMedia/MzMedia" target="_blank"><img src='https://img.shields.io/github/stars/MzMedia/MzMedia' alt='GitHub stars' class="no-zoom"></a>
   <a href="https://github.com/MzMedia/MzMedia" target="_blank"><img src='https://img.shields.io/github/forks/MzMedia/MzMedia' alt='GitHub forks' class="no-zoom"></a>
 </p>
 
