@@ -26,7 +26,7 @@ module.exports = {
                 text: '技术文档', link: '/pages/6882d2/', items: [
                     {text: '产品介绍', link: '/pages/6882d2/'},
                     {text: '系统架构', link: '/pages/architecture/'},
-                    {text: '快速入门', link: '/pages/514fee'},
+                    {text: '快速入门', link: '/pages/87a5db/'},
                     {text: '安装部署', link: '/pages/deployment/'},
                     {text: '功能手册', link: '/pages/function/'},
                     {text: '开发文档', link: '/pages/develop/'},
