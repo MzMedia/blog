@@ -75,12 +75,12 @@ postList: none
 <table>
   <tbody>
     <tr>
-     <!--  <td align="center" valign="middle">
-        <img src="" class="no-zoom" style="width:120px;margin: 10px;">
+     <td align="center" valign="middle">
+        <img :src="$withBase('/img/qrcode/wx.png')" class="no-zoom" style="width:120px;margin: 10px;" alt="MzMedia微信群">
         <p>MzMedia微信群(添加我微信备注"进群")</p>
-      </td> -->
+      </td> 
       <td align="center" valign="middle">
-        <img :src="$withBase('/img/qrcode/qqq.webp')" alt="群号: 103583198" class="no-zoom" style="width:120px;margin: 10px;">
+        <img :src="$withBase('/img/qrcode/qqq.png')" alt="群号: 103583198" class="no-zoom" style="width:120px;margin: 10px;">
         <p>MzMedia QQ群: 103583198</p>
       </td>
     </tr>
